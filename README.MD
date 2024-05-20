@@ -1,92 +1,51 @@
-<p align="center">
-    <img width="100" src=".github/assets/banner.png">
-</p>
+# E-Book gerado por ia generativa
+Ola eu sou henrique barbosa sampaio e esse é o meu projeto do e-book gerado por inteligencia artificial
+hoje irei contar o passo a passo e colocar os prompts que eu usei para gerar esse e-book. Caso queira ler esse e-book
+ele esta localizado na pasta output.
 
 
-<p align="center">
-<a href="https://dio.me/"><img src="https://img.shields.io/badge/DIO-Course-28DA77?logo=youtube" alt="DIO - course"></a>
-<a href="https://www.gnu.org/software/bash/" title="Go to Bash homepage"><img src="https://img.shields.io/badge/Prompt-Project-blue?logo=gnu-bash&amp;logoColor=white" alt="Made with Bash"></a></p>
+## Primeiros passos
 
--------
+### Gerar um titulo intrigante
+o primeiro passo para prender a atenção do usuario é o titulo ele tem que ser chamativo
+eu escolhi ir por um estilo mais medieval no estilo rpg então mandei para o chat esse prompt
 
+```
+crie um titulo para um e-book sobre o tema "Javascript para tudo" , o e-book é do nicho de programação e o subnicho é javascript, o titulo tem que ter uma boa sonoridade e ser curto, e tenha uma tematica de dungeons and dragons no estilo medieval
+```
 
-<p align="center">
-<img 
-    src="./assets/cover.png"
-    width="400"  
-/>
-</p>
+A resposta do chat gpt foi essa: 
+**"Masmorras, Dragões e javascript: Dominando os Reinos da Codificação"**
 
-# Projeto EBOOK Gerado por I.A.s
-
-
- > ℹ️ **NOTE:** Este é o repositório desenvolvido durante o curso no qual fui instrutor técnico na plataforma da [DIO](https://dio.me)
-
-Projeto com o objetivo de gerar um ebook digital com as facilidades das ferramentas de IA. todos os prompts
-seguem abaixo.
-
-<a href="https://github.com/felipeAguiarCode/prompts-recipe-to-create-a-ebook/blob/main/output/ebook%20-%20css%20jedi%20output.pdf" title="View PDF now"> 📕Clique aqui para ler</a>
-
-## 💻 Tecnologias utilizadas no projeto
-
-- [ChatGPT](https://chat.openai.com/) 
-- [MidJourney](https://www.midjourney.com/app/)
-- [PowerPoint](https://www.microsoft.com/en/microsoft-365/powerpoint)
-
-## 🧠 Prompts
+### Gerar a imagem de capa
+depois do titulo agora o objetivo é gerar uma imagem ultilizando inteligencia artificial geradoras de imagens para a capa
+no bootcamp eles recomendaram usar o midjurney para fazer a capa, porém decidi usar o leonardo.ia para fazer a capa
+depois de tentar gerar uma imagem com um prompt eu decidi olhar as artes geradas da comunidade para ver se tinha algo que fazia sentido e eu achei uma.
 
 
-ChatGPT：
+### Gerar o conteudo
+depois de gerar o titulo e a imagem de capa agora é importante gerar o conteudo do e-book e mais importante ainda é gerar um conteudo que vc domina para poder corrigir e orientar a inteligencia artificial no caminho certo.
 
-|   Ação   | prompt                                                                                                                                                                                                                                                                         |
-| :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  título  | Crie um título de um ebook sobre o tema de css, o ebookk é do nicho de programação e o subnicho é de css, o título deve ser épico e curto, e tenha uma temática de star wars no título, me liste 5 variações de títulos                                                        |
-| conteúdo | Faça um texto para ebook , com foco em CSS, listando os principais seletores CSS com exemplos em código {REGRAS} Explique sempre de uma maneira simples Deixe o texto enxuto, Sempre traga exemplos de código em contextos reais , sempre deixe um título sugestivo por tópico |
+depois de gerar um prompt rico esse foi o resultado da ia.
 
+```
+faça um texto para e-book com foco em javascript para o backend listando como se criar variaveis e os tipos de variaveis junto com as boas praticas da declaração de variaveis em javascript com exemplos de codigo
 
-Midjourney：
+{REGRAS}
+> Explique de uma maneira simples e profissional
+> Deixe o texto enxuto
+> Traga exemplos de código em contextos reais
+> Sempre deixe um titulo sugestivo por tópico
+```
 
-|  Ação  | prompt                                                                                 |
-| :----: | -------------------------------------------------------------------------------------- |
-| título | A jedi in meditation pose, with your blue lightsaber floating, pixel art style --v 5.1 |
+RESULTADO:
 
-## ✨ Features
+Capítulo 1: Variáveis em JavaScript
 
-- Conteúdo gerado via ChatGPT
-- Imagens geradas via MidJourney
+Introdução
 
-## 📚 Materiais
+No desenvolvimento web, JavaScript desempenha um papel fundamental tanto no frontend quanto no backend. Neste capítulo, vamos explorar as variáveis em JavaScript, abordando como declará-las, os tipos de variáveis disponíveis e as boas práticas associadas.
 
-- Imagens utilizadas em `assets`
-- ebook gerado durante as aulas em `output`
+Declaração de Variáveis
 
-## 🛠️ Instruções de execução
-
-Utilize os prompts acima nas ferramentas sugeridas para gerar o material base e utilize uma ferramenta de edição de documentos como power point, libreoffice , indesign para diagramação.
-
-## 👨‍💻 Expert
-
-<p>
-    <img 
-      align=left 
-      margin=10 
-      width=80 
-      src="https://avatars.githubusercontent.com/u/37452836?v=4"
-    />
-    <p>&nbsp&nbsp&nbspFelipe Aguiar<br>
-    &nbsp&nbsp&nbsp
-    <a href="https://github.com/felipeAguiarCode">
-    GitHub</a>&nbsp;|&nbsp;
-    <a href="www.linkedin.com/in/
-felipe-exe">LinkedIn</a>
-&nbsp;|&nbsp;
-    <a href="https://www.instagram.com/felipeaguiar.exe/">
-    Instagram</a>
-&nbsp;|&nbsp;</p>
-</p>
-<br/><br/>
-<p>
-
----
-
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
+Em JavaScript, podemos declarar...
